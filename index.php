@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+include('includes/header.php');
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,14 +12,6 @@
 
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
     <header id="home">
         <div id="homeCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -35,8 +29,9 @@
         <div class="header-content">
             <h1 style="color:rgb(84, 239, 221);"><b>FOOD-SHARE</b></h1>
             <p style="color:rgb(84, 239, 221);"><b>No more food-wastage</b> </p>
+            <a id="ctaButton" href="register.php">Register</a>
 
-            <button id="ctaButton">Register</button>
+
         </div>
     </header>
     <section id="about">
